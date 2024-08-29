@@ -1,0 +1,50 @@
+caption {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: #16a085;
+}
+
+th,
+tr:nth-child(odd) {
+  background-color: #ccdfd9;
+}
+
+tr:nth-child(even) {
+  background-color: #e7f0ed;
+}
+
+tr {
+  text-align: center;
+  color: #127965;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 25px;
+  font-size: 17px;
+}
+
+thead tr th:first-child,
+tbody tr td:first-child {
+  color: #16a085;
+}
+
+thead tr th:last-child,
+tbody tr td:last-child {
+  color: #16a085;
+}
+
+
+div.mycontainer {
+  width: 100%;
+  overflow: auto;
+}
+
+div.mycontainer div {
+  width: 20%;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+div.mycontainer div.London
+{
+  background-color: #127965;
+}
